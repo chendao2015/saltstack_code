@@ -1,0 +1,17 @@
+include:
+  - init.yum_repo
+  - init.zabbix_repo
+  - init.salt_repo
+  - init.yum_cache
+  - init.firewall
+  - init.selinux
+  - init.pkg-base
+  - init.salt-minion
+  - init.zabbix-agent
+  - init.ntp-client
+  - init.thins
+  - init.sysctl
+  - init.tty-timeout
+  - init.dns
+  - init.limits
+  - init.ssh
